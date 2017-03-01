@@ -1,0 +1,57 @@
+{
+  "name": "botmaster-twitter-dm",
+  "version": "1.0.0-beta",
+  "description": "The Twitter (Direct Messaging) Botmaster integration",
+  "main": "lib/index.js",
+  "scripts": {
+    "s": "DEBUG=botmaster:botmaster nodemon --legacy-watch ./example_jd.js",
+    "start": "node ./example_jd.js",
+    "test": "istanbul cover _mocha -- --recursive tests",
+    "tests": "mocha --recursive tests",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "postversion": "git push && git push --tags && rm -rf build/temp",
+    "tunnel": "( while true; do lt -p 3000 -s watsonchatdemo; done; )",
+    "jsdoc": "jsdoc ./lib ./lib/bot_types"
+  },
+  "directories": {
+    "tests": "test"
+  },
+  "keywords": [
+    "bot",
+    "botmaster",
+    "twitter",
+    "twitter-dm",
+    "twitter-direct-messaging",
+    "bot-framework"
+  ],
+  "license": "MIT",
+  "author": "JD Wuarin <john.dwuarin@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botmasterai/botmaster-twitter-dm"
+  },
+  "bugs": {
+    "url": "https://github.com/botmasterai/botmaster-twitter-dm/issues"
+  },
+  "dependencies": {
+    "botmaster": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=4.x.x <8.0.0"
+  },
+  "devDependencies": {
+    "botmaster-test-fixtures": "^1.0.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.16",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.2.0",
+    "mocha-eslint": "^3.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
