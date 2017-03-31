@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "botmaster": "^3.0.7",
+    "lodash": "^4.17.4",
     "twit": "^2.2.5"
   },
   "engines": {
