@@ -1,6 +1,6 @@
 'use strict';
 
-const sender = {
+const sender = () => ({
   "id": 1196840096,
   "id_str": "1196840096",
   "name": "John-David Wuarin",
@@ -39,9 +39,9 @@ const sender = {
   "following": false,
   "follow_request_sent": false,
   "notifications": false
-};
+});
 
-const recipient = {
+const recipient = () => ({
   "id": 720286086203715600,
   "id_str": "720286086203715584",
   "name": "Too_cool_for_you",
@@ -80,9 +80,9 @@ const recipient = {
   "following": false,
   "follow_request_sent": false,
   "notifications": false
-};
+});
 
-const textOnly = {
+const textOnly = () => ({
   "direct_message": {
     "id": 762648568935096300,
     "id_str": "762648568935096323",
@@ -103,9 +103,9 @@ const textOnly = {
       "urls": []
     }
   }
-};
+});
 
-const imageOnly = {
+const imageOnly = () => ({
   "direct_message": {
     "id": 762655255939153900,
     "id_str": "762655255939153927",
@@ -174,10 +174,10 @@ const imageOnly = {
       ]
     }
   }
-};
+});
 
 
-const imageWithText = {
+const imageWithText = () => ({
   "direct_message": {
     "id": 762640772189581300,
     "id_str": "762640772189581316",
@@ -246,9 +246,9 @@ const imageWithText = {
       ]
     }
   }
-};
+});
 
-const videoOnly = {
+const videoOnly = () => ({
   "direct_message": {
     "id": 762671565947494400,
     "id_str": "762671565947494405",
@@ -349,9 +349,9 @@ const videoOnly = {
       ]
     }
   }
-};
+});
 
-const videoWithImageWithText = {
+const videoWithImageWithText = () => ({
   "direct_message": {
     "id": 762671565947494400,
     "id_str": "762671565947494405",
@@ -488,9 +488,9 @@ const videoWithImageWithText = {
       ]
     }
   }
-};
+});
 
-const gifOnly = {
+const gifOnly = () => ({
   "direct_message": {
     "id": 762712201660665900,
     "id_str": "762712201660665860",
@@ -572,7 +572,7 @@ const gifOnly = {
       ]
     }
   }
-};
+});
 
 module.exports = {
   textOnly,
