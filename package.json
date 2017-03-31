@@ -1,6 +1,6 @@
 {
   "name": "botmaster-twitter-dm",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The Twitter (Direct Messaging) Botmaster integration",
   "main": "lib/index.js",
   "scripts": {
