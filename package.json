@@ -53,12 +53,12 @@
     "url": "https://github.com/botmasterai/botmaster-twitter-dm/issues"
   },
   "dependencies": {
-    "botmaster": "^3.0.7",
+    "botmaster": "^3.2.0",
     "lodash": "^4.17.4",
     "twit": "^2.2.5"
   },
   "engines": {
-    "node": ">=4.x.x"
+    "node": "4.x.x || >=6.x.x"
   },
   "devDependencies": {
     "ava": "^0.18.2",

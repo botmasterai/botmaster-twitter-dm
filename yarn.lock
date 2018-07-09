@@ -643,11 +643,11 @@ botmaster-test-fixtures@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/botmaster-test-fixtures/-/botmaster-test-fixtures-2.1.0.tgz#f368006a6ad3bb9bda02477486f0840d5ceb6518"
 
-botmaster@^3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/botmaster/-/botmaster-3.0.7.tgz#5caf54ed267c69f42f44816a980bc870e81637ca"
+botmaster@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/botmaster/-/botmaster-3.2.0.tgz#7a0024ac4eda2932bf10bcbcdd291f74e7cdd758"
   dependencies:
-    debug "^2.6.1"
+    debug "^3.1.0"
     lodash "^4.17.4"
 
 boxen@^0.6.0:
@@ -1037,11 +1037,17 @@ debug@2.2.0:
   dependencies:
     ms "0.7.1"
 
-debug@^2.1.1, debug@^2.2.0, debug@^2.6.1:
+debug@^2.1.1, debug@^2.2.0:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
   dependencies:
     ms "0.7.2"
+
+debug@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  dependencies:
+    ms "2.0.0"
 
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
@@ -2682,6 +2688,10 @@ ms@0.7.1:
 ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
+
+ms@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
 ms@^0.7.1:
   version "0.7.3"
